@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#4094E4">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" />
+
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_gravity="bottom"
+      android:layout_marginBottom="-2dp"
+      android:src="@drawable/toolbar_bg" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="导航"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="11dp"
+      android:layout_marginBottom="3dp"
+      android:textColor="@color/white"
+      android:textStyle="bold"/>
+  <ImageButton
+      android:id="@+id/mainView"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="10dp"
+      android:layout_marginBottom="23dp"
+      android:background="@drawable/mainbtn"
+      android:foregroundTint="#4094E4" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="查询"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="107.6dp"
+      android:layout_marginBottom="3dp"
+      android:textColor="@color/white"
+      android:textStyle="bold"/>
+  <ImageButton
+      android:id="@+id/queryView"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="106.6dp"
+      android:layout_marginBottom="23dp"
+      android:background="@drawable/querybtn" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="通知"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="214.2dp"
+      android:layout_marginBottom="3dp"
+      android:textColor="@color/white"
+      android:textStyle="bold"/>
+
+  <ImageButton
+      android:id="@+id/infoView"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="213.2dp"
+      android:layout_marginBottom="23dp"
+      android:background="@drawable/infobtn" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="主页"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="311dp"
+      android:layout_marginBottom="3dp"
+      android:textColor="@color/white"
+      android:textStyle="bold"/>
+
+  <ImageButton
+      android:id="@+id/userView"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="bottom"
+      android:layout_marginLeft="310dp"
+      android:layout_marginBottom="23dp"
+      android:background="@drawable/userbtn" />
+</FrameLayout>
