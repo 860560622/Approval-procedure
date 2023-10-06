@@ -68,14 +68,6 @@ APP设计时需考虑到延展性、兼容性、可用性、通用性、健壮�
 如：设置（切换APP显示风格、个人信息、退出、切换账号等）、通知等
 
 
-
-
-集成开发工具：AndroidStudio
-
-数据库：MySQL
-
-操作系统：Windows 11
-
-Web服务器：Tomcat
+![类图](https://github.com/860560622/Approval-procedure/blob/main/%E7%B1%BB%E5%9B%BE.png)
 
 
